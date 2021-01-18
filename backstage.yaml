@@ -6,7 +6,6 @@ metadata:
     A service for testing Backstage functionality. For example, we can trigger errors
     on the sample-service, these are sent to Sentry, then we can view them in the 
     Backstage plugin for Sentry.
-    tes
  spec:
   type: service
   owner: david@roadie.io
