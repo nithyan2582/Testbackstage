@@ -6,11 +6,8 @@ metadata:
     A service for testing Backstage functionality. For example, we can trigger errors
     on the sample-service, these are sent to Sentry, then we can view them in the 
     Backstage plugin for Sentry.
-    test
-  annotations:
-    aws.com/lambda-function-name: testcron
-    aws.com/lambda-region: us-east-1    
-spec:
+    tes
+ spec:
   type: service
   owner: david@roadie.io
   lifecycle: experimental
