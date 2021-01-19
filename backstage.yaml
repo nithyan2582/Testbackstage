@@ -4,8 +4,8 @@ metadata:
   name: AWSLambda
   description: |
     A service for testing Backstage functionality. For example, we can trigger errors
-    on the sample-service, these are sent to Sentry, then we can view them in the 
-    Backstage plugin for Sentry.
+    on the sample-service, these are sent to AWS Lambda, then we can view them in the 
+    Backstage plugin for AWS Lambda.
   annotations:
     aws.com/lambda-function-name: fusionapp1,testcron
     aws.com/lambda-region: us-east-1 
