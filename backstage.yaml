@@ -1,14 +1,16 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: AWSLambda
+  name: sample-service
   description: |
     A service for testing Backstage functionality. For example, we can trigger errors
-    on the sample-service, these are sent to  Lambda, then we can view them in the 
-    Backstage plugin for AWS Lambda.
+    on the sample-service, these are sent to Sentry, then we can view them in the 
+    Backstage plugin for Sentry.
+    test
   annotations:
-    aws.com/lambda-function-name: cronjob
-    aws.com/lambda-region: us-east-1 
+    aws.com/lambda-function-name: testcron
+    aws.com/lambda-region: us-east-1
+    backstage.io/techdocs-ref: 'url:https://github.com/backstage/backstage/tree/master/plugins/techdocs-backend/examples/documented-component'
 spec:
   type: service
   owner: david@roadie.io
